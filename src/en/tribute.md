@@ -10,7 +10,7 @@ subtitle: "A family-built record, so that his work is not lost to time."
 
 <div class="prose">
 
-This site was built by A. M. Jamadar's family as a lasting, public record of his life's work — assembled from a bound photo album kept for decades, a handful of original prints, and newspaper clippings that had been carefully countersigned and preserved by the local education office in Kolhapur.
+This site was built by the family of Guruvarya Abdul Hamid Miraso Jamadar — known throughout his public life as A. M. Jamadar — as a lasting, public record of his life's work — assembled from a bound photo album kept for decades, a handful of original prints, and newspaper clippings that had been carefully countersigned and preserved by the local education office in Kolhapur.
 
 <!-- TODO: family to provide exact birth date, death date, and full native-village/family details not documented in the surviving photo album -->
 

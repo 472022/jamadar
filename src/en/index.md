@@ -1,16 +1,17 @@
 ---
 layout: layouts/page.njk
-title: "A. M. Jamadar"
-description: "A. M. Jamadar was a Kolhapur-district headmaster who became General Secretary of the Maharashtra Rajya Prathmik Shikshak Sangh, meeting Indira Gandhi and hosting Afghan and American delegations."
+title: "Guruvarya Abdul Hamid Miraso Jamadar"
+seoTitle: "A. M. Jamadar"
+description: "Guruvarya Abdul Hamid Miraso Jamadar — known as A. M. Jamadar — was a Kolhapur-district headmaster who became General Secretary of the Maharashtra Rajya Prathmik Shikshak Sangh, meeting Indira Gandhi and hosting Afghan and American delegations."
 lang: en
 slug: ""
 ogType: profile
 heroImage: "awards-and-honors/national-award-zail-singh-original-canonical.jpg"
 heroAlt: "A. M. Jamadar receiving the National Award for Teachers at the hands of the President of India, Giani Zail Singh."
-subtitle: "Educationist. Headmaster. Teachers' union leader. Secretary-General of the Maharashtra Rajya Prathmik Shikshak Sangh."
+subtitle: "Known throughout his public life as A. M. Jamadar — Educationist. Headmaster. Teachers' union leader. Secretary-General of the Maharashtra Rajya Prathmik Shikshak Sangh."
 ---
 
-**A. M. Jamadar** (अ. मि. जमादार) was a primary-school headmaster from Kagal, in Kolhapur district, Maharashtra, who rose to lead the state's primary-teachers' movement — serving as **General Secretary of the Maharashtra Rajya Prathmik Shikshak Sangh** and of the **Rashtriya Prathmik Shikshan Parishad, Mumbai**. Over more than two decades of public life he sat across the table with a Prime Minister, a President of India, three Chief Ministers, and teachers' delegations from Afghanistan, the United States, and across India.
+**Guruvarya Abdul Hamid Miraso Jamadar** (गुरुवर्य अब्दुल हमीद मिरासो जमादार) — known throughout his public life simply as **A. M. Jamadar** (अ. मि. जमादार) — was a primary-school headmaster from Kagal, in Kolhapur district, Maharashtra, who rose to lead the state's primary-teachers' movement — serving as **General Secretary of the Maharashtra Rajya Prathmik Shikshak Sangh** and of the **Rashtriya Prathmik Shikshan Parishad, Mumbai**. Over more than two decades of public life he sat across the table with a Prime Minister, a President of India, three Chief Ministers, and teachers' delegations from Afghanistan, the United States, and across India.
 
 This site gathers the surviving photographic record of that career — a family-held scrapbook album, contemporary newspaper clippings, and a handful of original photographs — into one place.
 

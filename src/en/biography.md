@@ -17,7 +17,9 @@ subtitle: "From a farming family in Kagal to the leadership of Maharashtra's pri
 
 ## Early life
 
-A. M. Jamadar came from a farming family (शेतकरी कुटुंब) in **Kagal**, a town in Kolhapur district, Maharashtra — a detail recorded in a 1985 newspaper profile marking his election as the state union's Secretary-General. He trained as a primary-school teacher and, according to that same profile, had built roughly **25 years of teaching and union service** by 1985 — placing the start of his teaching career at around 1960.
+His full name was **Guruvarya Abdul Hamid Miraso Jamadar** — the initials "A. M." by which he was known throughout his public life and across every newspaper clipping and album page stood for Abdul and his own middle name, Miraso.
+
+Abdul Hamid Miraso Jamadar came from a farming family (शेतकरी कुटुंब) in **Kagal**, a town in Kolhapur district, Maharashtra — a detail recorded in a 1985 newspaper profile marking his election as the state union's Secretary-General. He trained as a primary-school teacher and, according to that same profile, had built roughly **25 years of teaching and union service** by 1985 — placing the start of his teaching career at around 1960.
 
 <!-- TODO: family to provide exact birth date, death date, and full native-village/family details not documented in the surviving photo album -->
 

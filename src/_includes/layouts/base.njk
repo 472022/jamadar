@@ -1,17 +1,18 @@
 {%- set otherLangCode = "mr" if lang == "en" else "en" -%}
+{%- set metaTitle = seoTitle or title -%}
 <!doctype html>
 <html lang="{{ lang }}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{% if title == site.title or title == site.titleMr %}{% if lang == 'mr' %}{{ site.titleMr }} — {{ site.taglineMr }}{% else %}{{ site.title }} — {{ site.tagline }}{% endif %}{% else %}{{ title }} | {% if lang == 'mr' %}{{ site.titleMr }}{% else %}{{ site.title }}{% endif %}{% endif %}</title>
+<title>{% if metaTitle == site.title or metaTitle == site.titleMr %}{% if lang == 'mr' %}{{ site.titleMr }} — {{ site.taglineMr }}{% else %}{{ site.title }} — {{ site.tagline }}{% endif %}{% else %}{{ metaTitle }} | {% if lang == 'mr' %}{{ site.titleMr }}{% else %}{{ site.title }}{% endif %}{% endif %}</title>
 <meta name="description" content="{{ description }}">
 <link rel="canonical" href="{{ site.url }}/{{ lang }}/{{ slug }}">
 <link rel="alternate" hreflang="en" href="{{ site.url }}/en/{{ slug }}">
 <link rel="alternate" hreflang="mr" href="{{ site.url }}/mr/{{ slug }}">
 <link rel="alternate" hreflang="x-default" href="{{ site.url }}/">
 
-<meta property="og:title" content="{{ title }} | {% if lang == 'mr' %}{{ site.titleMr }}{% else %}{{ site.title }}{% endif %}">
+<meta property="og:title" content="{% if metaTitle == site.title or metaTitle == site.titleMr %}{{ metaTitle }}{% else %}{{ metaTitle }} | {% if lang == 'mr' %}{{ site.titleMr }}{% else %}{{ site.title }}{% endif %}{% endif %}">
 <meta property="og:description" content="{{ description }}">
 <meta property="og:type" content="{{ ogType or 'article' }}">
 <meta property="og:url" content="{{ site.url }}/{{ lang }}/{{ slug }}">
