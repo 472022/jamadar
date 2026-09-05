@@ -20,7 +20,7 @@ subtitle: "Four decades of teaching and union leadership, as documented in the f
   <div class="timeline-item__dot"></div>
   <div class="timeline-item__body">
     <h3>Begins teaching in Kagal</h3>
-    <p>A 1985 newspaper profile records roughly 25 years of teaching and union service by that date, placing the start of his career at around 1960, at Hindurao Patane Vidyamandir, Kagal.</p>
+    <p>A 1985 newspaper profile records roughly 25 years of teaching and union service by that date, placing the start of his career at around 1960, at Hindurao Ghatge Vidyamandir, Kagal.</p>
     <a href="/en/biography/">Read the full biography →</a>
   </div>
 </li>

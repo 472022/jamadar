@@ -18,7 +18,7 @@ This site gathers the surviving photographic record of that career — a family-
 ## At a glance
 
 <ul class="fact-list">
-<li><strong>Headmaster</strong> — Hindurao Patane Vidyamandir, Kagal, Kolhapur district.</li>
+<li><strong>Headmaster</strong> — Hindurao Ghatge Vidyamandir, Kagal, Kolhapur district.</li>
 <li><strong>President</strong> — Kolhapur Zilla Prathmik Shikshak Sangh (from 1963).</li>
 <li><strong>General Secretary</strong> — Maharashtra Rajya Prathmik Shikshak Sangh (elected June 1985, at the union's Diamond Jubilee session in Sangli).</li>
 <li><strong>General Secretary</strong> — Rashtriya Prathmik Shikshan Parishad, Mumbai.</li>

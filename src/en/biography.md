@@ -1,7 +1,7 @@
 ---
 layout: layouts/page.njk
 title: "Biography"
-description: "A. M. Jamadar's biography: a farming family in Kagal, a headmaster at Hindurao Patane Vidyamandir, and 22+ years building the Maharashtra primary teachers' movement."
+description: "A. M. Jamadar's biography: a farming family in Kagal, a headmaster at Hindurao Ghatge Vidyamandir, and 22+ years building the Maharashtra primary teachers' movement."
 lang: en
 slug: "biography/"
 ogType: profile
@@ -36,9 +36,9 @@ Two undated photographs in the family collection are believed to date from this 
   </figure>
 </div>
 
-## Headmaster of Hindurao Patane Vidyamandir, Kagal
+## Headmaster of Hindurao Ghatge Vidyamandir, Kagal
 
-Jamadar taught at, and became headmaster of, **Hindurao Patane Vidyamandir** (also recorded as Hindurao Patane Taluka Vidyamandir) in Kagal — a school old enough that the family album records its **130th anniversary celebration**, presided over with Education Minister Sadanand Varde and MLA Vikramsingh Ghatge, with Jamadar presiding as headmaster.
+Jamadar taught at, and became headmaster of, **Hindurao Ghatge Vidyamandir** (also recorded as Hindurao Ghatge Taluka Vidyamandir) in Kagal — a school old enough that the family album records its **130th anniversary celebration**, presided over with Education Minister Sadanand Varde and MLA Vikramsingh Ghatge, with Jamadar presiding as headmaster.
 
 Alongside his teaching duties, he was active in local civic and cooperative life, including work connected to the **Prathmik Shikshak Sahakari Bank Ltd., Kolhapur** — a teachers' cooperative bank — and in organising a Savitribai Phule child-sponsorship (दत्तक पालक) scheme in Kagal in 1984.
 

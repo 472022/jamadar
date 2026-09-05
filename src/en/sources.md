@@ -35,6 +35,8 @@ A small number of loose, higher-resolution original prints held separately by th
 
 A small number of details on this site — his full name, Guruvarya Abdul Hamid Miraso Jamadar, and his recalled membership of the Governing Body of the NCERT, New Delhi — come directly from the family rather than from a photograph or clipping. These are marked as such wherever they appear.
 
+The school's name is a related case: the album banner and two 1985 newspaper clippings all print it as "Hindurao Patane Vidyamandir," but the family has confirmed the school's correct name is **Hindurao Ghatge Vidyamandir** — used throughout this site accordingly.
+
 ## A note on accuracy
 
 Where a caption in the source material was faded, rotated on the page, or otherwise not fully legible, this site says so directly rather than filling the gap with a guess. If you can help verify or complete any part of this record, please get in touch via the family — see the [Tribute](/en/tribute/) page.
