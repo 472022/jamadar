@@ -31,6 +31,10 @@ A small number of loose, higher-resolution original prints held separately by th
 <li>The Diamond Jubilee souvenir (हीरक महोत्सव स्मरणिका) of the Maharashtra Rajya Prathmik Shikshak Sangh</li>
 </ul>
 
+## Family recollections
+
+A small number of details on this site — his full name, Guruvarya Abdul Hamid Miraso Jamadar, and his recalled membership of the Governing Body of the NCERT, New Delhi — come directly from the family rather than from a photograph or clipping. These are marked as such wherever they appear.
+
 ## A note on accuracy
 
 Where a caption in the source material was faded, rotated on the page, or otherwise not fully legible, this site says so directly rather than filling the gap with a guess. If you can help verify or complete any part of this record, please get in touch via the family — see the [Tribute](/en/tribute/) page.

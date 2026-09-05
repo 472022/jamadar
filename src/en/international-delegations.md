@@ -32,9 +32,9 @@ Jamadar's work extended beyond his home state. He was photographed as part of an
 
 {{ dignitaryPhoto(images | findImage("tamil-nadu-all-india-teachers-conference-20may1976-pg190"), "en") }}
 
-## NCERT training, New Delhi
+## NCERT, New Delhi
 
-Jamadar was selected to attend a national training camp organised by the NCERT (National Council of Educational Research and Training) in New Delhi in 1972, and was later felicitated for an especially well-received lecture on "Non-Formal Education" at a subsequent NCERT camp.
+Jamadar was selected to attend a national training camp organised by the NCERT (National Council of Educational Research and Training) in New Delhi in 1972, and was later felicitated for an especially well-received lecture on "Non-Formal Education" at a subsequent NCERT camp. The family also recalls that his association with NCERT went further — that he served on its Governing Body in New Delhi — though this is not independently documented in the surviving album or press clippings.
 
 {{ dignitaryPhoto(images | findImage("ncert-new-delhi-training-camp-selected-1972-pg173"), "en") }}
 {{ dignitaryPhoto(images | findImage("ncert-delhi-non-formal-education-felicitation-pg139"), "en") }}
