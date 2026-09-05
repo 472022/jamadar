@@ -1,0 +1,15 @@
+{
+  "name": "am-jamadar-tribute",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A tribute and biographical archive website for Shri A. M. Jamadar",
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve",
+    "debug": "DEBUG=Eleventy* eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-img": "^5.0.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "items": [
+    { "slug": "",                          "labelEn": "Home",                          "labelMr": "मुखपृष्ठ" },
+    { "slug": "biography/",                "labelEn": "Biography",                     "labelMr": "जीवनपट" },
+    { "slug": "career-timeline/",          "labelEn": "Career & Leadership",           "labelMr": "कारकीर्द" },
+    { "slug": "leaders-and-dignitaries/",  "labelEn": "Leaders & Dignitaries",         "labelMr": "मान्यवरांच्या भेटी" },
+    { "slug": "international-delegations/","labelEn": "International Ties",            "labelMr": "आंतरराष्ट्रीय संबंध" },
+    { "slug": "awards-and-honors/",        "labelEn": "Awards & Honors",                "labelMr": "पुरस्कार व सन्मान" },
+    { "slug": "press-archive/",            "labelEn": "Press Archive",                  "labelMr": "वृत्तपत्र कात्रणे" },
+    { "slug": "gallery/",                  "labelEn": "Photo Gallery",                  "labelMr": "छायाचित्र दालन" },
+    { "slug": "tribute/",                  "labelEn": "Tribute",                        "labelMr": "श्रद्धांजली" },
+    { "slug": "sources/",                  "labelEn": "Sources",                        "labelMr": "संदर्भ" }
+  ]
+}

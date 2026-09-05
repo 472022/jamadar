@@ -1,0 +1,21 @@
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <div>
+      <strong>{% if lang == 'mr' %}{{ site.titleMr }}{% else %}{{ site.title }}{% endif %}</strong><br>
+      {% if lang == 'mr' %}
+        शिक्षणतज्ज्ञ व शिक्षक संघटनेचे नेते — एक कौटुंबिक स्मृतिचित्र संग्रह.
+      {% else %}
+        Educationist & Teachers' Union Leader — a family-maintained archive.
+      {% endif %}
+    </div>
+    <p class="site-footer__note">
+      {% if lang == 'mr' %}
+        या संकेतस्थळावरील मजकूर व छायाचित्रे कौटुंबिक संग्रहातील जुन्या अल्बम व वृत्तपत्र कात्रणांवर आधारित आहेत.
+        <a href="/{{ lang }}/sources/">संदर्भ व श्रेय पहा</a>.
+      {% else %}
+        Content and photographs on this site are drawn from a family-held album and newspaper clippings.
+        <a href="/{{ lang }}/sources/">See sources & credits</a>.
+      {% endif %}
+    </p>
+  </div>
+</footer>

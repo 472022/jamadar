@@ -1,0 +1,20 @@
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="site-brand" href="/{{ lang }}/">
+      <span class="site-brand__name">{% if lang == 'mr' %}{{ site.titleMr }}{% else %}{{ site.title }}{% endif %}</span>
+      <span class="site-brand__tagline">{% if lang == 'mr' %}{{ site.taglineMr }}{% else %}{{ site.tagline }}{% endif %}</span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">☰ {% if lang == 'mr' %}मेनू{% else %}Menu{% endif %}</button>
+    <nav class="site-nav" id="site-nav" aria-label="{% if lang == 'mr' %}मुख्य दिशादर्शन{% else %}Main navigation{% endif %}">
+      {% for item in nav.items %}
+        <a href="/{{ lang }}/{{ item.slug }}"{% if slug == item.slug %} aria-current="page"{% endif %}>
+          {{ item.labelMr if lang == 'mr' else item.labelEn }}
+        </a>
+      {% endfor %}
+      <span class="lang-switch">
+        <a href="/en/{{ slug }}" aria-current="{{ 'true' if lang == 'en' else 'false' }}">EN</a>
+        <a href="/mr/{{ slug }}" aria-current="{{ 'true' if lang == 'mr' else 'false' }}">मराठी</a>
+      </span>
+    </nav>
+  </div>
+</header>

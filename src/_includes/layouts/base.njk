@@ -1,0 +1,46 @@
+{%- set otherLangCode = "mr" if lang == "en" else "en" -%}
+<!doctype html>
+<html lang="{{ lang }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if title == site.title or title == site.titleMr %}{% if lang == 'mr' %}{{ site.titleMr }} — {{ site.taglineMr }}{% else %}{{ site.title }} — {{ site.tagline }}{% endif %}{% else %}{{ title }} | {% if lang == 'mr' %}{{ site.titleMr }}{% else %}{{ site.title }}{% endif %}{% endif %}</title>
+<meta name="description" content="{{ description }}">
+<link rel="canonical" href="{{ site.url }}/{{ lang }}/{{ slug }}">
+<link rel="alternate" hreflang="en" href="{{ site.url }}/en/{{ slug }}">
+<link rel="alternate" hreflang="mr" href="{{ site.url }}/mr/{{ slug }}">
+<link rel="alternate" hreflang="x-default" href="{{ site.url }}/">
+
+<meta property="og:title" content="{{ title }} | {% if lang == 'mr' %}{{ site.titleMr }}{% else %}{{ site.title }}{% endif %}">
+<meta property="og:description" content="{{ description }}">
+<meta property="og:type" content="{{ ogType or 'article' }}">
+<meta property="og:url" content="{{ site.url }}/{{ lang }}/{{ slug }}">
+{% if heroImage %}<meta property="og:image" content="{{ site.url }}{{ (images | imageByFile(heroImage)).fullUrl }}">{% else %}<meta property="og:image" content="{{ site.url }}{{ site.defaultOgImage }}">{% endif %}
+<meta property="og:locale" content="{{ 'mr_IN' if lang == 'mr' else 'en_IN' }}">
+<meta property="og:locale:alternate" content="{{ 'en_IN' if lang == 'mr' else 'mr_IN' }}">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;600;700&family=Noto+Serif+Devanagari:wght@400;600;700&family=Noto+Sans:wght@400;500;700&family=Noto+Sans+Devanagari:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.3.1/css/glightbox.min.css">
+<link rel="stylesheet" href="/assets/css/style.css">
+
+{% include "partials/json-ld-person.njk" %}
+</head>
+<body>
+<a class="skip-link" href="#main">{% if lang == 'mr' %}मुख्य मजकुराकडे जा{% else %}Skip to content{% endif %}</a>
+
+{% include "partials/header.njk" %}
+
+<main id="main">
+{{ content | safe }}
+</main>
+
+{% include "partials/footer.njk" %}
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.3.1/js/glightbox.min.js"></script>
+<script src="/assets/js/site.js"></script>
+</body>
+</html>

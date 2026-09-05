@@ -1,0 +1,40 @@
+{% macro renderPicture(img, alt, sizes, cssClass) %}<picture><source type="image/webp" srcset="{{ img | srcset('webp') }}" sizes="{{ sizes }}"><img alt="{{ alt }}" src="{{ img | smallestUrl('jpeg') }}" srcset="{{ img | srcset('jpeg') }}" sizes="{{ sizes }}" width="{{ img.width }}" height="{{ img.height }}" loading="lazy" decoding="async"{% if cssClass %} class="{{ cssClass }}"{% endif %}></picture>{% endmacro %}
+
+{% macro heroPicture(img, alt) %}<picture><source type="image/webp" srcset="{{ img | srcset('webp') }}" sizes="100vw"><img alt="{{ alt }}" src="{{ img.fullUrl }}" srcset="{{ img | srcset('jpeg') }}" sizes="100vw" width="{{ img.width }}" height="{{ img.height }}" loading="eager" decoding="async" fetchpriority="high"></picture>{% endmacro %}
+
+{% macro galleryGrid(items, lang) %}
+<div class="gallery-grid">
+  {% for img in items %}
+  <a class="gallery-item glightbox" href="{{ img.fullUrl }}" data-glightbox="description: {{ (img.captionMr if lang == 'mr' else img.captionEn) | escape }}" data-gallery-category="{{ img.category }}"><span class="gallery-item__img-wrap">{{ renderPicture(img, (img.altMr if lang == 'mr' else img.altEn), "(min-width: 700px) 210px, 45vw") }}</span><span class="gallery-item__caption">{{ img.captionMr if lang == 'mr' else img.captionEn }}</span></a>
+  {% endfor %}
+</div>
+{% endmacro %}
+
+{% macro clippingCard(img, lang) %}
+<article class="clipping-card">
+  <div class="clipping-card__meta">{{ img.dateApprox }}</div>
+  <div class="clipping-card__body">
+    <a href="{{ img.fullUrl }}" class="glightbox" data-glightbox="description: {{ (img.captionMr if lang == 'mr' else img.captionEn) | escape }}">{{ renderPicture(img, (img.altMr if lang == 'mr' else img.altEn), "220px") }}</a>
+    <div class="clipping-card__text">
+      <p>{{ img.captionMr if lang == 'mr' else img.captionEn }}</p>
+      {% if img.peopleEn %}
+      <details>
+        <summary>{% if lang == 'mr' %}सविस्तर वाचा{% else %}Read full translation{% endif %}</summary>
+        <p class="mr-text">{{ img.peopleMr if lang == 'mr' else img.peopleEn }}</p>
+      </details>
+      {% endif %}
+    </div>
+  </div>
+</article>
+{% endmacro %}
+
+{% macro dignitaryPhoto(img, lang) %}
+<div class="dignitary">
+  <a href="{{ img.fullUrl }}" class="glightbox" data-glightbox="description: {{ (img.captionMr if lang == 'mr' else img.captionEn) | escape }}">{{ renderPicture(img, (img.altMr if lang == 'mr' else img.altEn), "(min-width: 700px) 280px, 90vw") }}</a>
+  <div>
+    <h3>{{ img.captionMr if lang == 'mr' else img.captionEn }}</h3>
+    {% if img.peopleEn %}<p>{{ img.peopleMr if lang == 'mr' else img.peopleEn }}</p>{% endif %}
+    {% if img.dateApprox %}<p><span class="badge">{{ img.dateApprox }}</span></p>{% endif %}
+  </div>
+</div>
+{% endmacro %}

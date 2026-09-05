@@ -1,0 +1,27 @@
+---
+layout: layouts/base.njk
+---
+{% from "partials/gallery-macros.njk" import heroPicture %}
+{% if heroImage %}
+<section class="page-hero{% if heroCompact %} page-hero--compact{% endif %}">
+  <div class="photo-wrap">
+    {{ heroPicture(images | imageByFile(heroImage), heroAlt) }}
+  </div>
+  <div class="page-hero__content">
+    <h1>{{ title }}</h1>
+    {% if subtitle %}<p class="page-hero__subtitle">{{ subtitle }}</p>{% endif %}
+  </div>
+</section>
+{% endif %}
+
+<div class="container">
+  {% if not heroImage %}
+    <header style="padding-top:1.6em;">
+      <h1>{{ title }}</h1>
+      {% if subtitle %}<p class="lede">{{ subtitle }}</p>{% endif %}
+    </header>
+  {% endif %}
+  <div class="page-body">
+    {{ content | safe }}
+  </div>
+</div>
