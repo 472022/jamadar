@@ -8,7 +8,10 @@
     { "slug": "awards-and-honors/",        "labelEn": "Awards & Honors",                "labelMr": "पुरस्कार व सन्मान" },
     { "slug": "press-archive/",            "labelEn": "Press Archive",                  "labelMr": "वृत्तपत्र कात्रणे" },
     { "slug": "gallery/",                  "labelEn": "Photo Gallery",                  "labelMr": "छायाचित्र दालन" },
-    { "slug": "tribute/",                  "labelEn": "Tribute",                        "labelMr": "श्रद्धांजली" },
-    { "slug": "sources/",                  "labelEn": "Sources",                        "labelMr": "संदर्भ" }
+    { "slug": "family-reflection/",        "labelEn": "Family Reflection",              "labelMr": "कौटुंबिक आठवणी" },
+    { "slug": "tributes/",                 "labelEn": "Tributes & Stories",             "labelMr": "श्रद्धांजली व आठवणी" },
+    { "slug": "tribute/",                  "labelEn": "About This Site",                "labelMr": "या संकेतस्थळाबद्दल" },
+    { "slug": "sources/",                  "labelEn": "Sources",                        "labelMr": "संदर्भ" },
+    { "slug": "contact/",                  "labelEn": "Contact",                        "labelMr": "संपर्क" }
   ]
 }

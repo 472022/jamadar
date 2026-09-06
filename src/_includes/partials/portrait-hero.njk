@@ -1,0 +1,18 @@
+{% from "partials/gallery-macros.njk" import renderPicture %}
+<section class="portrait-hero">
+  <div class="portrait-hero__inner">
+    <figure class="portrait-hero__photo">
+      {{ renderPicture(images | imageByFile(heroImage), heroAlt, "(min-width: 800px) 380px, 80vw", "portrait-hero__img") }}
+    </figure>
+    <div class="portrait-hero__text">
+      <h1>{{ title }}</h1>
+      {% if subtitle %}<p class="portrait-hero__subtitle">{{ subtitle }}</p>{% endif %}
+      {% if legacyStatement %}<p class="portrait-hero__legacy">{{ legacyStatement }}</p>{% endif %}
+      <!-- TODO: add a "b. YYYY – d. YYYY" line here once the family confirms birth/death years -->
+      <div class="portrait-hero__actions">
+        <a class="btn btn--primary" href="/{{ lang }}/tributes/">{% if lang == 'mr' %}आठवण शेअर करा{% else %}Share a Memory{% endif %}</a>
+        <a class="btn btn--secondary" href="/{{ lang }}/contact/">{% if lang == 'mr' %}संग्रहात योगदान द्या{% else %}Contribute to the Archive{% endif %}</a>
+      </div>
+    </div>
+  </div>
+</section>

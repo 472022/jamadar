@@ -9,6 +9,7 @@ ogType: profile
 heroImage: "awards-and-honors/national-award-zail-singh-original-canonical.jpg"
 heroAlt: "A. M. Jamadar receiving the National Award for Teachers at the hands of the President of India, Giani Zail Singh."
 subtitle: "Known throughout his public life as A. M. Jamadar — Educationist. Headmaster. Teachers' union leader. Secretary-General of the Maharashtra Rajya Prathmik Shikshak Sangh."
+legacyStatement: "A lifelong teacher who became the voice of a movement — from a village classroom in Kagal to the offices of a Prime Minister and a President."
 ---
 
 **Guruvarya Abdul Hamid Miraso Jamadar** (गुरुवर्य अब्दुल हमीद मिरासो जमादार) — known throughout his public life simply as **A. M. Jamadar** (अ. मि. जमादार) — was a primary-school headmaster from Kagal, in Kolhapur district, Maharashtra, who rose to lead the state's primary-teachers' movement — serving as **General Secretary of the Maharashtra Rajya Prathmik Shikshak Sangh** and of the **Rashtriya Prathmik Shikshan Parishad, Mumbai**. Over more than two decades of public life he sat across the table with a Prime Minister, a President of India, three Chief Ministers, and teachers' delegations from Afghanistan, the United States, and across India.
@@ -56,8 +57,20 @@ This site gathers the surviving photographic record of that career — a family-
     <h3>Photo Gallery</h3>
     <p>All 47 photographs in the family archive, in one browsable gallery.</p>
   </a>
+  <a class="card" href="/en/family-reflection/">
+    <h3>Family Reflection</h3>
+    <p>Who he was outside of public life — as a father, mentor, and husband.</p>
+  </a>
+  <a class="card" href="/en/tributes/">
+    <h3>Tributes & Stories</h3>
+    <p>A public wall of memories from those who knew him.</p>
+  </a>
   <a class="card" href="/en/tribute/">
-    <h3>Tribute</h3>
-    <p>About this site, and a space for family memories.</p>
+    <h3>About This Site</h3>
+    <p>Why this archive exists, and how it was built.</p>
+  </a>
+  <a class="card" href="/en/contact/">
+    <h3>Contact</h3>
+    <p>Reach the family, or contribute a photo, document, or correction.</p>
   </a>
 </div>

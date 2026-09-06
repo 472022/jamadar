@@ -1,0 +1,19 @@
+<section class="cta-banner">
+  <div class="cta-banner__inner">
+    <p class="cta-banner__text">
+      {% if lang == 'mr' %}
+        त्यांना ओळखत होता, किंवा या नोंदीत भर घालण्यासारखे काही आहे?
+      {% else %}
+        Knew him, or have something to add to this record?
+      {% endif %}
+    </p>
+    <div class="cta-banner__actions">
+      <a class="btn btn--primary" href="/{{ lang }}/tributes/">
+        {% if lang == 'mr' %}आठवण शेअर करा{% else %}Share a Memory{% endif %}
+      </a>
+      <a class="btn btn--secondary" href="/{{ lang }}/contact/">
+        {% if lang == 'mr' %}संपर्क साधा{% else %}Get in Touch{% endif %}
+      </a>
+    </div>
+  </div>
+</section>

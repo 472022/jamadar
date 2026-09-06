@@ -2,7 +2,9 @@
 layout: layouts/base.njk
 ---
 {% from "partials/gallery-macros.njk" import heroPicture %}
-{% if heroImage %}
+{% if slug == "" and heroImage %}
+{% include "partials/portrait-hero.njk" %}
+{% elif heroImage %}
 <section class="page-hero{% if heroCompact %} page-hero--compact{% endif %}">
   <div class="photo-wrap">
     {{ heroPicture(images | imageByFile(heroImage), heroAlt) }}
@@ -25,3 +27,5 @@ layout: layouts/base.njk
     {{ content | safe }}
   </div>
 </div>
+
+{% include "partials/cta-banner.njk" %}

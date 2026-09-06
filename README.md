@@ -59,6 +59,34 @@ move from the free `*.netlify.app` subdomain to a real domain, change the
 `url` field there — every canonical link, sitemap entry, and social-preview
 image URL is generated from that one value.
 
+## Contact form & Tributes wall
+
+The site has two Netlify Forms: **Contact** (`src/en/contact.md` / `src/mr/contact.md`)
+and **Tributes** (`src/en/tributes.md` / `src/mr/tributes.md`). Both are plain
+HTML forms with `data-netlify="true"` — Netlify detects and collects them
+automatically at deploy time, no backend code needed.
+
+**One-time setup still pending:** in the Netlify dashboard, go to
+**Site settings → Forms → Form notifications** and add an email address (or
+addresses) to be notified on every submission. Until this is set, submissions
+still arrive in the Forms dashboard, just without an email alert.
+
+**Approving a tribute for the public wall:**
+
+1. Check the Netlify dashboard (Site → Forms → "tribute") for new submissions.
+2. Decide together (you, Nihal, Shaan) whether to publish it.
+3. Add an entry to `src/_data/tributes.json`:
+   ```json
+   { "name": "...", "relationship": "...", "message": "...", "dateApproved": "YYYY-MM-DD" }
+   ```
+4. Commit and push — the tribute appears on `/tributes/` (both languages) on
+   the next deploy.
+
+There's no login-protected admin panel by design — this keeps the site fully
+static with no extra accounts or services to maintain. If the volume of
+submissions grows enough to justify a self-service approval page, that's a
+larger follow-up project (would need Netlify Identity + Functions).
+
 ## Design notes
 
 - Deliberately does not state a birth date, death date, or native-village

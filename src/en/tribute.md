@@ -1,6 +1,6 @@
 ---
 layout: layouts/page.njk
-title: "Tribute"
+title: "About This Site"
 description: "About this tribute archive to A. M. Jamadar, built by his family from a surviving photo album and newspaper clippings, and how it may grow over time."
 lang: en
 slug: "tribute/"
@@ -16,7 +16,9 @@ This site was built by the family of Guruvarya Abdul Hamid Miraso Jamadar — kn
 
 Nothing on this site goes beyond what these original materials record. Where a photograph's caption was faded, rotated, or otherwise not fully legible, that is stated plainly rather than guessed at. As more photographs, documents, or family memories come to light, this archive is intended to grow to include them.
 
-If you knew A. M. Jamadar, worked alongside him in the teachers' movement, or can help fill in any of the gaps in this record, the family would welcome hearing from you.
+If you knew A. M. Jamadar, worked alongside him in the teachers' movement, or can help fill in any of the gaps in this record, the family would welcome hearing from you — see [Contact](/en/contact/).
+
+Two more parts of the site worth knowing about: [Family Reflection](/en/family-reflection/) shares who he was outside of public life, and [Tributes & Stories](/en/tributes/) is a public wall where anyone who knew him can leave a memory of their own.
 
 See also: [Sources & Credits](/en/sources/) for a full list of the original materials this site draws on.
 
